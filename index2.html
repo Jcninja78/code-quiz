@@ -1,0 +1,33 @@
+<!-- //User needs to:
+// button to start quiz and button to show highscores page
+
+// initialize timer and start quiz questions
+
+// if question = true then add 1 and go to next question
+
+// if question = false then add 0 and go to next question, also take 15 seconds off the timer
+
+// after timer runs out or user finishes quiz show score and give prompt for initials
+
+// then take information and put it on separate highscores page in a ranked list -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Timed Quiz</h1>
+        <p class="lead">This is a simple quiz that will keep score every time you answer a question correctly. There are 5 questions. If you get one wrong it will take 15 seconds off of the timer! Click Highscores to see who has done the best so far.</p>
+        <hr class="my-4">
+        <p>Good Luck!</p>
+        <a class="btn btn-danger btn-lg" href="#" role="button">Start Quiz</a>
+        <a class="btn btn-primary btn-lg" href="highscores.html" role="button">Highscores</a>
+      </div>
+</body>
+</html>
